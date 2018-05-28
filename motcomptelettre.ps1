@@ -2,4 +2,4 @@
 
 echo $mot.Length
 
-count
+counts

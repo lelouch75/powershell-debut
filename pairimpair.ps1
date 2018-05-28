@@ -1,12 +1,12 @@
 ﻿[int]$nb= Read-Host "Donner un nombre"
-# permet de déterminer nom pair et impair
 
-if ( $nb%2=$true) { 
 
-echo "$n est paire";
+if ( $nb%2 -eq $true) { 
+
+echo "$n est impaire";
 
  } else {
 
-echo "$n est impaire";
+echo "$n est paire";
 
  }
